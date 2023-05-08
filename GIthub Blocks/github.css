@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+.box1{
+    background-color: aqua;
+    width: 1420px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.box2{
+    background-color: rebeccapurple;
+    width: 1420px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.box3{
+    background-color: white;
+    width: 1420px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.box1, .box2, .box3{
+    margin-left: 20px;
+}
+.box2, .box3{
+    margin-top: 20px;
+}
